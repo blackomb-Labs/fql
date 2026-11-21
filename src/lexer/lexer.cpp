@@ -1,18 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #include <string>
 #include "../../include/lexer/lexer.h"
 #include <vector>
@@ -34,7 +19,7 @@ vector<string> lexer(std::string content){
 
         }
         else{
-            charcollector += content[character]; 
+            charcollector += content[character];
         }
     }
     return tokens;
